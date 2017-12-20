@@ -7,7 +7,6 @@
         <version>1.4-SNAPSHOT</version>
     </parent>
 
-    <groupId>io.airlift.resolver</groupId>
     <artifactId>resolver-integration</artifactId>
     <packaging>jar</packaging>
 
@@ -30,7 +29,7 @@
         </dependency>
 
         <dependency>
-            <groupId>org.sonatype.aether</groupId>
+            <groupId>org.eclipse.aether</groupId>
             <artifactId>aether-api</artifactId>
             <scope>test</scope>
         </dependency>
